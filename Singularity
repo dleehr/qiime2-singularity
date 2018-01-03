@@ -7,7 +7,7 @@ From: continuumio/miniconda3:4.3.27p0
 /opt/conda/bin/qiime "$@"
 
 %post
-export QIIME2_RELEASE=2017.10
+export QIIME2_RELEASE=2017.12
 export LC_ALL=C.UTF-8
 export LANG=C.UTF-8
 export MPLBACKEND=agg
